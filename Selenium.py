@@ -47,9 +47,9 @@ try:
     time.sleep(2)
 
     # Date of birth
-    Select(driver.find_element(By.ID, 'days')).select_by_value('15')
-    Select(driver.find_element(By.ID, 'months')).select_by_value('7')
-    Select(driver.find_element(By.ID, 'years')).select_by_value('1998')
+    Select(driver.find_element(By.ID, 'days')).select_by_value('10')
+    Select(driver.find_element(By.ID, 'months')).select_by_value('12')
+    Select(driver.find_element(By.ID, 'years')).select_by_value('2003')
     time.sleep(2)
 
     # Step 10: Select checkbox 'Sign up for our newsletter!'
